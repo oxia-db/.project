@@ -46,6 +46,8 @@ security:
 governance:
   contributing:
     path: "https://github.com/oxia-db/oxia/blob/main/CONTRIBUTING.md"
+  governance_doc:
+    path: "https://github.com/oxia-db/oxia/blob/main/GOVERNANCE.md"
   code_of_conduct:
     path: "https://github.com/oxia-db/oxia/blob/main/CODE_OF_CONDUCT.md"
 
