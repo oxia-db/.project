@@ -1,7 +1,6 @@
 # .project metadata for Oxia
 # Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
 
-# TODO: Set slack_channels
 # TODO: Add adopters list (ADOPTERS.md)
 # TODO: Add package_managers if distributed via registries
 
@@ -10,11 +9,11 @@ slug: "oxia"
 name: "Oxia"
 description: "Oxia is a scalable metadata store and coordination system"
 type: "project"
-project_lead: "coderzc" # TODO: AUTO-DETECTED — please verify
-# TODO: Set CNCF Slack channel(s)
-# slack_channels:
-#   - name: "#oxia"
-#     primary: true
+project_lead: "merlimat"
+slack_channels:
+  - name: "#oxia"
+    workspace: "cncf"
+    primary: true
 
 maturity_log:
   - phase: "sandbox"
