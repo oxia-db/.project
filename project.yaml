@@ -1,8 +1,6 @@
 # .project metadata for Oxia
 # Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
 
-# TODO: Add adopters list (ADOPTERS.md)
-
 schema_version: "1.0.0"
 slug: "oxia"
 name: "Oxia"
@@ -26,10 +24,8 @@ website: "https://oxia-db.github.io"
 
 artwork: "https://landscape.cncf.io/logos/oxia.svg"
 
-# TODO: Add ADOPTERS.md if your project tracks adopters
-# adopters:
-#   path: "https://github.com/oxia-db/oxia/blob/main/ADOPTERS.md"
-
+adopters:
+  path: "https://github.com/oxia-db/oxia/blob/main/ADOPTERS.md"
 
 package_managers:
   docker: "oxia/oxia"
