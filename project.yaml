@@ -1,9 +1,6 @@
 # .project metadata for Oxia
 # Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
 
-# TODO: Add adopters list (ADOPTERS.md)
-# TODO: Add package_managers if distributed via registries
-
 schema_version: "1.0.0"
 slug: "oxia"
 name: "Oxia"
@@ -27,15 +24,11 @@ website: "https://oxia-db.github.io"
 
 artwork: "https://landscape.cncf.io/logos/oxia.svg"
 
-# TODO: Add ADOPTERS.md if your project tracks adopters
-# adopters:
-#   path: "https://github.com/oxia-db/oxia/blob/main/ADOPTERS.md"
+adopters:
+  path: "https://github.com/oxia-db/oxia/blob/main/ADOPTERS.md"
 
-
-# TODO: Add package manager identifiers if your project is distributed via registries
-# package_managers:
-#   docker: "oxia-db/oxia"
-
+package_managers:
+  docker: "oxia/oxia"
 
 security:
   policy:
@@ -46,6 +39,8 @@ security:
 governance:
   contributing:
     path: "https://github.com/oxia-db/oxia/blob/main/CONTRIBUTING.md"
+  governance_doc:
+    path: "https://github.com/oxia-db/oxia/blob/main/GOVERNANCE.md"
   code_of_conduct:
     path: "https://github.com/oxia-db/oxia/blob/main/CODE_OF_CONDUCT.md"
 
